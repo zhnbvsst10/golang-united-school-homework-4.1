@@ -2,7 +2,7 @@ package reverse_string
 
 func ReverseString(input string) (output string) {
 	// solution goes here
-	output := []rune(s) // convert to rune
+	output := []rune(input) // convert to rune
     	for i, j := 0, len(output)-1; i < j; i, j = i+1, j-1 {
   
         // swap the letters of the string,
